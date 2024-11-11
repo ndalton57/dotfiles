@@ -25,8 +25,8 @@ fi
 
 # Remove this section later and create a function for selecting
 # which key you want to add to the current session's agent
-eval $(ssh-agent)
-ssh-add ~/.ssh/github_key
+#eval $(ssh-agent)
+#ssh-add ~/.ssh/github.ndalton57
 
 export PATH=$PATH:/sbin:/usr/sbin
 
