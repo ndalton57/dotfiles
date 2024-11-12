@@ -15,3 +15,10 @@ ln ./waybar/* ~/.config/waybar/
 
 rm -rf ~/.config/wofi/*
 ln ./wofi/* ~/.config/wofi/
+
+rm ~/.bashrc
+rm ~/.bash_logout
+rm ~/.profile
+ln ./bash/.bashrc ~/
+ln ./bash/.bash_logout ~/
+ln ./bash/.profile ~/
