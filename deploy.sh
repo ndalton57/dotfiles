@@ -22,3 +22,12 @@ rm ~/.profile
 ln ./bash/.bashrc ~/
 ln ./bash/.bash_logout ~/
 ln ./bash/.profile ~/
+
+rm -rf ~/.config/nvim/*.*
+ln ./nvim/*.* ~/.config/nvim/
+
+rm -rf ~/.config/nvim/lua/config/*
+ln ./nvim/lua/config/* ~/.config/nvim/lua/config/
+
+rm -rf ~/.config/nvim/lua/plugins/*
+ln ./nvim/lua/config/* ~/.config/nvim/lua/plugins/
